@@ -1,5 +1,6 @@
 #include <iostream>
 
+/* func になってる!! */
 int fucn(int x) {
   return x*x;
 }
@@ -16,8 +17,10 @@ int main(void) {
     std::cout << i << std::endl;
   }
 
-  std::cout << func(6) << std::endl;
-  std::cout << func2(5,7) << syd::endl;
+  std::cout << fucn(6) << std::endl;
+  std::cout << func2(5,7) << std::endl;
+
+  std::cout << "git practice" << std::endl;
   
   return 0;
 }
